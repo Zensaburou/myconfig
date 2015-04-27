@@ -1,0 +1,16 @@
+#!/bin/bash
+
+##### VIM
+
+alias vl='source ~/.vim_aliases'
+alias vvl='vim ~/.vim_aliases && vl'
+
+# Update pathogen packages
+function updateVim(){
+  cd ~/.vim/bundle;
+  for i in `ls`; do
+    cd "$i"
+    git pull
+    cd ..
+  done;
+}

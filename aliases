@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ./lib/aliases/bash
+source ./lib/aliases/git
+source ./lib/aliases/vim

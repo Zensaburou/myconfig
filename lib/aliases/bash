@@ -1,0 +1,20 @@
+##### Edit and source alias file
+alias al='source ~/.aliases'
+alias val='vim ~/.aliases && al'
+alias config='cd ~/myconfig/'
+
+##### Background tasks
+# Discard all in and output
+nh () {
+  nohup "$1" > /dev/null &
+}
+
+# StdOut and StdErr to local files
+# StdIn to /dev/null
+nhl () {
+  nohup "$1" "$2" > nh.out 2> nh.err < /dev/null &
+}
+
+##### Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
