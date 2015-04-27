@@ -16,7 +16,6 @@ mkdir ~/.vim/plugin
 cd ~/.vim/bundle/
 
 git clone https://github.com/Yggdroot/indentLine.git
-git clone git://github.com/tpope/vim-rails.git
 git clone git://github.com/tpope/vim-endwise.git
 git clone git://github.com/jeetsukumaran/vim-indentwise.git
 
