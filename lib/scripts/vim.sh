@@ -25,7 +25,7 @@ git clone git://github.com/tpope/vim-endwise.git
 git clone git://github.com/jeetsukumaran/vim-indentwise.git
 
 # fuzzy finder for opening files
-git clone git@github.com:kien/ctrlp.vim.git
+git clone https://github.com/kien/ctrlp.vim.git
 
 # Sym link .vimrc to vim settings
 ln -s ./lib/support/vim.vim ~/.vimrc
