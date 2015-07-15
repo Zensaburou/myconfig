@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Bash
-./lib/scripts/bash
+./lib/scripts/bash.sh
 
 # Vim
-./lib/scripts/vim
+./lib/scripts/vim.sh
