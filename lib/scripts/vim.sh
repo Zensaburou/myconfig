@@ -27,12 +27,5 @@ git clone git://github.com/jeetsukumaran/vim-indentwise.git
 # fuzzy finder for opening files
 git clone git@github.com:kien/ctrlp.vim.git
 
-# Set path for pathogen plugins
-echo "execute pathogen#infect()" >> ~/.vimrc
-
-# Sym link
-ln -s ./lib/support/vim ~/.vim_aliases
-
-# Create .vimrc
-touch ~/.vimrc
-echo "source ~/.vim_aliases" >> ~/.vimrc
+# Sym link .vimrc to vim settings
+ln -s ./lib/support/vim.vim ~/.vimrc
